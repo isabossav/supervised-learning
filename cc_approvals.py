@@ -13,7 +13,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import GridSearchCV
 
-
 # Load dataset
 cc_apps = pd.read_csv("cc_approvals.data", header=None)
 
